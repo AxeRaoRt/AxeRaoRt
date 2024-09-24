@@ -1,5 +1,5 @@
 
-[![SVG Banners](https://svg-banners.vercel.app/api?type=glitch&text1=Hi👋I\'m%20Axel%0ARAOUMBE&width=1200&height=400)](https://github.com/Akshay090/svg-banners)
+[![SVG Banners](https://svg-banners.vercel.app/api?type=glitch&text1=Hi👋I\'m%20Axel%0ARAOUMBE&width=1500&height=300)](https://github.com/Akshay090/svg-banners)
 
 
 <!--![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AxeRaoRt&hide_progress=true&token=GH_TOKEN)-->
