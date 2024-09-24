@@ -1,6 +1,6 @@
 ## Hi there 👋
-[![SVG Banners](https://svg-banners.vercel.app/api?type=glitch&text1=glitch🤹&width=800&height=400)](https://github.com/Akshay090/svg-banners)
-[![SVG Banners](https://svg-banners.vercel.app/api?type=glitch&text1=Hi👋I\"am%20Axel%20RAOUMBE&width=800&height=400)](https://github.com/Akshay090/svg-banners)
+
+[![SVG Banners](https://svg-banners.vercel.app/api?type=glitch&text1=Hi👋I\'m%20Axel%0ARAOUMBE&width=1200&height=400)](https://github.com/Akshay090/svg-banners)
 
 <!--
 **AxeRaoRt/AxeRaoRt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
