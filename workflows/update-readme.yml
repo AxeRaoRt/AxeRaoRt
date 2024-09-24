@@ -1,0 +1,26 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 * * * *' 
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Generate GitHub Stats
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          curl -H "Authorization: Bearer $GH_TOKEN" \
+            https://github-readme-stats.vercel.app/api/top-langs/?username=AxeRaoRt&hide_progress=true&compact \
+            -o README.md
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m "Update README with latest stats"
+          git push
